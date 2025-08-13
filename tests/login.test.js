@@ -21,7 +21,7 @@ iterations: 1,
 };
 
 export default function () {
-    const url = 'http://localhost:3002/login';
+    const url = 'http://localhost:3000/login';
     const payload = JSON.stringify(postLogin);
 
     const params = {
